@@ -12,7 +12,6 @@ To run tests via configuration junit runner use this snippet:
 -Denvironment=coinmarket -Dwebdriver.chrome.driver="C:\Projects\chromedriver\chromedriver.exe" -Dcucumber.options="--tags @Backend,@Frontend" -Dchrome.user.data.path="C:\Projects\profiles"
 
 To run via maven CLI:
-
 open terminal and execute command:
 
 mvn test -Dcucumber.options="--tags @Backend,Frontend"
