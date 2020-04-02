@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.032436">
+<testcase classname="Backend tasks" name="Backend tasks with 3 tests" time="9.032436">
+<system-out><![CDATA[When Ids of crypto currencies are retrieved.................................passed
+Then Crypto Currencies are converted to Bolivian Boliviano currency.........passed
+And Crypto Currency info is performed.......................................passed
+And Retrieve Currencies from Crypto Currency Info call......................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,153 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Backend tasks with 3 tests",
+        "description": "",
+        "id": "backend-tasks;backend-tasks-with-3-tests",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2116048400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Ids of crypto currencies are retrieved",
+            "match": {
+              "location": "BackEndTask.getCoinIds()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2131893600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Crypto Currencies are converted to Bolivian Boliviano currency",
+            "match": {
+              "location": "BackEndTask.convertToOtherCurrency()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 491673900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Crypto Currency info is performed",
+            "match": {
+              "location": "BackEndTask.cryptoCurrencyInfo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4279224500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Retrieve Currencies from Crypto Currency Info call",
+            "match": {
+              "location": "BackEndTask.cryptoCurrencyInfoCurrenciesDataTable(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "Currency"
+                ]
+              },
+              {
+                "cells": [
+                  "1",
+                  "Bitcoin"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "Litecoin"
+                ]
+              },
+              {
+                "cells": [
+                  "3",
+                  "Namecoin"
+                ]
+              },
+              {
+                "cells": [
+                  "4",
+                  "Terracoin"
+                ]
+              },
+              {
+                "cells": [
+                  "5",
+                  "Peercoin"
+                ]
+              },
+              {
+                "cells": [
+                  "6",
+                  "Novacoin"
+                ]
+              },
+              {
+                "cells": [
+                  "7",
+                  "Devcoin"
+                ]
+              },
+              {
+                "cells": [
+                  "8",
+                  "Feathercoin"
+                ]
+              },
+              {
+                "cells": [
+                  "9",
+                  "Mincoin"
+                ]
+              },
+              {
+                "cells": [
+                  "10",
+                  "Freicoin"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Backend"
+          }
+        ]
+      }
+    ],
+    "name": "Backend tasks",
+    "description": "",
+    "id": "backend-tasks",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Backend.feature",
+    "tags": [
+      {
+        "name": "@Backend",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
