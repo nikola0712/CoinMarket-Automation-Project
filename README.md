@@ -9,6 +9,7 @@ pom.xml file has dependencies to Cucumber, Junit, TestNG, Selenium, RestAssured.
 To run tests directly from feature files, right click and press run button.
 
 To run tests via configuration junit runner use this snippet:
+
 -Denvironment=coinmarket -Dwebdriver.chrome.driver="C:\Projects\chromedriver\chromedriver.exe" -Dcucumber.options="--tags @Backend,@Frontend" -Dchrome.user.data.path="C:\Projects\profiles"
 
 To run via maven CLI:
